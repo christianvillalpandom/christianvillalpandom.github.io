@@ -21,10 +21,10 @@ function validarFormulario (evObject) {
 
 function validarNombre (n) {
 	if(n==""){
-		alert("Captura tu nombre");
+		alert("Error: Captura tu nombre.");
 	}
 	else if(n.length <= 10) {
-		alert("Captura un nombre correcto");
+		alert("Error: El nombre " + n + " es incorrecto.");
 	}
 	else if (n.length > 10) {
 		alert("Tu nombre es:"+n);	
@@ -46,13 +46,13 @@ function validarMail (mail) {
 	
 function validarTelefono (telefono) {
 	if(telefono==""){
-		alert("Captura tu telefono");
+		alert("Captura tu telefono.");
 	}
 	else if (isNaN(false)) {
-		alert("Captura un telefono correcto");
+		alert("Error: El telefono " + telefono + " es incorrecto.");
 	}
 	else if(telefono.length < 8) {
-		alert("Captura un telefono correcto");
+		alert("Error: El telefono " + telefono + " es incorrecto.");
 	}
 	else if(telefono.length >= 8) {
 		alert("Tu telefono es:"+telefono);	

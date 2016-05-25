@@ -172,10 +172,39 @@ p{
 
 footer{
 	background-image: url("../img/fondo3.png");
-	height: 150px;
+	height: 200px;
 }
 
 .logof{
 	width: 100%;
 	height: auto;
+	text-align: center;
 }
+
+.dr{
+	color: white;
+	font-size: 2.5rem;
+	font-family: Verdana;
+	text-align: center;
+	margin-top: 10rem;
+	margin-bottom: 0px;
+}
+
+.rs{
+	margin: 0px;
+	width: 140px;
+	height: 140px;
+	background-color: white;
+	margin: auto;
+	border-radius: 10px;
+}
+
+.slo{
+	height: 90%;
+	width: 90%;
+	margin: 5% 5%;
+}
+
+
+
+
